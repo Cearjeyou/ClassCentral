@@ -28,5 +28,5 @@ except Exception as e:
     print("Log", e)
 
 # Writing the translated text to the HTML file
-with open("C:\My Web Sites\Descargas mains\www.classcentral.com\subjects.html", "w", encoding="utf-8") as f:
+with open("path_file", "w", encoding="utf-8") as f:
     f.write(str(soup))
